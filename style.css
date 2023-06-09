@@ -10,3 +10,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    min-width: 550px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dark-background);
+    color: var(--text-color);
+    width: 100%;
+    padding: 15px 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo > h1 {
+    color: rgb(218, 204, 204);
+    font-size: 18px;
+}
+
+nav {
+    margin: auto 0;
+    width: 25%;
+    min-width: 225px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav > ul > li {
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+nav > ul > li:hover {
+    font-weight: 700;
+    border-bottom: 2px solid var(--text-color);
+}
