@@ -97,3 +97,35 @@ nav > ul > li:hover {
     width: 550px;
     height: 250px;
 }
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 50px 100px;
+}
+
+.gallery > h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+figure {
+    width: 17.5%;
+    text-align: center;
+}
+
+.photo-item {
+    width: 100%;
+    border: 4px solid var(--button-color);
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
