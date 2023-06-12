@@ -12,7 +12,7 @@
 }
 
 body {
-    min-width: 550px;
+    min-width: 1100px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -128,4 +128,26 @@ figure {
     border: 4px solid var(--button-color);
     border-radius: 15px;
     margin-bottom: 5px;
+}
+
+blockquote {
+    background-color: var(--quote-background);
+    padding: 15px 50px;
+    height: 400px;
+}
+
+.quote-text {
+    margin: 100px auto 0;
+    width: 70%;
+    font-size: 2.25rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+cite {
+    float: right;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 20px 200px 0;
 }
