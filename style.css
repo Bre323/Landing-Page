@@ -151,3 +151,36 @@ cite {
     font-weight: 700;
     margin: 20px 200px 0;
 }
+
+.signup {
+    padding: 100px;
+}
+
+.signup-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    height: 150px;
+    background-color: var(--button-color);
+    color: var(--text-color);
+    border-radius: 10px;
+}
+
+.signup-div > button {
+    border: 2px solid var(--text-color);
+    border-radius: 10px;
+    background-color: var(--button-color);
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 700;
+    height: 35px;
+    width: 135px;
+}
+
+footer {
+    background-color: var(--dark-background);
+    color: var(--text-color);
+    padding: 35px 50px;
+    text-align: center;
+}
